@@ -4,5 +4,14 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Menu.unity
+    guid: 0f6cd08398b13e041972b8e68fa1cfdd
+  - enabled: 1
+    path: Assets/Scenes/GameModes/GameplayTwoAisTutorial.unity
+    guid: 4031a0d18aa9c8847a1a3094ae27699d
+  - enabled: 1
+    path: Assets/Scenes/GameModes/GameplayTwoAis.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
   m_configObjects: {}

@@ -1,0 +1,227 @@
+{
+    "name": "IA_PlayerControls",
+    "maps": [
+        {
+            "name": "Player",
+            "id": "2114581d-9ba5-4beb-92d6-4d5d37e57c78",
+            "actions": [
+                {
+                    "name": "Movement A/D",
+                    "type": "PassThrough",
+                    "id": "42ed0336-01db-4603-ab64-5e3b9b70e547",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Movement J/L",
+                    "type": "Button",
+                    "id": "93f7c2dc-fb28-4f78-828d-f647afdefb19",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Movement Up/Down",
+                    "type": "Button",
+                    "id": "88db0fc1-5176-4af4-93e3-e2cbb74b71d6",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Movement H/B",
+                    "type": "Button",
+                    "id": "e9c31867-2fe6-4868-bf9e-582bf683c1cb",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "2D Vector",
+                    "id": "8bacebe7-97cf-43af-8063-3eb701db6fb5",
+                    "path": "2DVector",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Movement A/D",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "left",
+                    "id": "94ccdb8b-9f50-4616-add7-88596b7aab53",
+                    "path": "<Keyboard>/a",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard - AD Mode;Keyboard JL - Mode;Keyboard Arrows - Mode;Keyboard VN - Mode",
+                    "action": "Movement A/D",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "right",
+                    "id": "0bc7f8b5-8692-40df-8e74-a38055920c7d",
+                    "path": "<Keyboard>/d",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard - AD Mode;Keyboard JL - Mode;Keyboard Arrows - Mode;Keyboard VN - Mode",
+                    "action": "Movement A/D",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "2D Vector",
+                    "id": "09d4b97b-28c0-4c8c-a5b4-d00eeca492bb",
+                    "path": "2DVector",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Movement J/L",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "left",
+                    "id": "d7c20e93-76d8-4e85-8b54-d8ca8e470dcc",
+                    "path": "<Keyboard>/j",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard JL - Mode;Keyboard - AD Mode;Keyboard Arrows - Mode;Keyboard VN - Mode",
+                    "action": "Movement J/L",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "right",
+                    "id": "160b662a-a105-444b-b7ef-1040cc42d745",
+                    "path": "<Keyboard>/l",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard JL - Mode;Keyboard - AD Mode;Keyboard Arrows - Mode;Keyboard VN - Mode",
+                    "action": "Movement J/L",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "2D Vector",
+                    "id": "9a4bad6c-9e93-48dc-849f-3191a6cbbbf2",
+                    "path": "2DVector",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Movement Up/Down",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "up",
+                    "id": "3890b51c-9142-41b6-8320-4ab94d41b0e1",
+                    "path": "<Keyboard>/upArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard Arrows - Mode;Keyboard - AD Mode;Keyboard JL - Mode;Keyboard VN - Mode",
+                    "action": "Movement Up/Down",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "down",
+                    "id": "5b41bcc4-2a35-41cd-96b0-36a64d5ea106",
+                    "path": "<Keyboard>/downArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard Arrows - Mode;Keyboard JL - Mode;Keyboard - AD Mode;Keyboard VN - Mode",
+                    "action": "Movement Up/Down",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "2D Vector",
+                    "id": "5b7190ba-3708-4d8b-8642-2873dfb242ed",
+                    "path": "2DVector",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Movement H/B",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "up",
+                    "id": "aebbace6-c02b-4b06-a5f4-1c546ceeb021",
+                    "path": "<Keyboard>/h",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard VN - Mode;Keyboard - AD Mode;Keyboard JL - Mode;Keyboard Arrows - Mode",
+                    "action": "Movement H/B",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "down",
+                    "id": "715b05d1-ec74-4182-9d67-90806b455994",
+                    "path": "<Keyboard>/b",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard VN - Mode;Keyboard Arrows - Mode;Keyboard JL - Mode;Keyboard - AD Mode",
+                    "action": "Movement H/B",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                }
+            ]
+        }
+    ],
+    "controlSchemes": [
+        {
+            "name": "Keyboard - AD Mode",
+            "bindingGroup": "Keyboard - AD Mode",
+            "devices": [
+                {
+                    "devicePath": "<Keyboard>",
+                    "isOptional": false,
+                    "isOR": false
+                }
+            ]
+        },
+        {
+            "name": "Keyboard JL - Mode",
+            "bindingGroup": "Keyboard JL - Mode",
+            "devices": [
+                {
+                    "devicePath": "<Keyboard>",
+                    "isOptional": false,
+                    "isOR": false
+                }
+            ]
+        },
+        {
+            "name": "Keyboard Arrows - Mode",
+            "bindingGroup": "Keyboard Arrows - Mode",
+            "devices": [
+                {
+                    "devicePath": "<Keyboard>",
+                    "isOptional": false,
+                    "isOR": false
+                }
+            ]
+        },
+        {
+            "name": "Keyboard VN - Mode",
+            "bindingGroup": "Keyboard VN - Mode",
+            "devices": [
+                {
+                    "devicePath": "<Keyboard>",
+                    "isOptional": false,
+                    "isOR": false
+                }
+            ]
+        }
+    ]
+}
